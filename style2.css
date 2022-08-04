@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("component");
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    height: auto;
+}header{
+
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    height: 60px;
+    align-items: center;
+    color: rgb(85, 233, 85);
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 100px; padding-right: 100px;
+    justify-content: center;
+    width: 50%;
+}
+.icone{
+    width: 60px;
+    width: 50%;
+    padding-left: 20px;
+}
+.contato{
+    padding: 10px;
+}
+#Ig{
+    padding: 60px;
+}
+#maior{
+    padding: 250px;
+}
+#j{
+    color:rgb(49, 49, 49);
+}
+#Nome{
+    display:flex ;
+    align-content: space-between;
+    align-items: baseline;
+    height: 230px;    
+    padding-top: 0px;
+    background-color: rgb(49, 49, 49);
+}
+#texto{
+    padding-left:100px ;
+    background-color: rgb(49, 49, 49);
+    padding-top:60px ;
+
+}
+#Sobre{
+    margin-left:100px ;
+    margin-right: 110px;
+    padding: 10px;
+    background-color: white;
+    border-top: 1px;
+    border-radius: 10px;
+    padding-bottom: 300px;
+}
+#box{
+    padding-bottom: 500px;
+    background-color: rgb(49, 49, 49);
+}
+
+.box{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-90%);
+    background: rgb(0, 0, 0,0);
+    align-content: space-between;
+}
+.box-circle svg{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    padding: 30px;
+}
+circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke:blue ;
+    stroke-width: 10px;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440px;
+    stroke-dashoffset: 440px;
+
+}
+circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: rgb(85, 82, 82);
+}
+circle:nth-child(2){
+    stroke-dashoffset:100;
+    stroke: rgb(85, 233, 85);
+}
+#box2{
+    display: flex;
+    align-content: space-between;
+    position: absolute;
+    top: 100%;
+    left: 8%;
+}
+.Skills{
+    padding-right:100px;
+    
+}
+.number{
+    display: flex;
+    align-content: space-between;
+    position: absolute;
+    top: 44%;
+    left: 10%;
+}
+.numeros2{
+    position:unset ;
+    padding-left:170px ;
+}
+.numeros3{
+    position: relative;
+    padding-left: 170px;
+}
+.numeros4{
+    position: relative;
+    padding-left: 165px;
+    padding-right: 0px;
+}
+#skill1{
+    padding-left:45px;
+}
+#skill2{
+    padding-left: 40px;
+}
+#skill3{
+    padding-left: 55px;
+}
+#Eu{
+    padding-left: 40px;
+}
+#ico{
+    padding-right:5px ;
+}
+#git{
+    display: flex;
+    position: relative;
+    right: 0%;
+}
